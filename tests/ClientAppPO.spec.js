@@ -10,7 +10,7 @@ test('Browser Context-Vlidating Error login', async ({ page }) => {
     await page.waitForLoadState('networkidle');
     const titles = await page.locator('.card-body b').allTextContents();
 
-    console.log(titles);
+    console.log(titles); // wil display the titles of the products in the console
 
 
 });
