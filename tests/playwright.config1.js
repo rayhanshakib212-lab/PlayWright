@@ -5,6 +5,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
 const config = ({
   testDir: './tests',
+  workers: 1,  // setting the number of workers to 1 for running the tests in a single thread
   timeout: 40*1000,     // setting the test level timeout for each test case to 40 seconds
 
   expect : {
