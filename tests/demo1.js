@@ -10,5 +10,5 @@ function add(a, b) {
     return a + b;
 }
 add(3, 4); // will return 7 and not give any error because the return type is number and we are returning a number.
-let user = { name: "Bob", age: 34 };
+//let user: {name:string,age:number} = { name: "Bob", age: 34};
 //user.location = "hyderbad";  // will give error because location is not defined in the user object.
